@@ -1,0 +1,18 @@
+-> Neural Architecture Search is basically training multiple child networks with different hyperparameters to then find the best one, to do complete extensive training on
+-> The goal of NAS is to be able to get
+    a) A better or at par accuracy
+    b) The best possible efficiency to achieve this accuracy
+
+-> Parameters for evaluation to be considered:
+    a) accuracy
+    b) num of weights
+    c) num of calculations
+
+-> The main steps for NAS are:
+    a) Defining the search space
+        i. Number of hidden layers
+        ii. Number of Nodes per hidden layers
+        iii. Activation function
+    b) Model generation
+    c) evaluation
+    d) Choosing next model (Search algorithm)
